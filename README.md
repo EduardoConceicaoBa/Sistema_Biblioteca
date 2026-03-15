@@ -69,49 +69,7 @@ emprestado_para
 
 Métodos
 
-Exemplos:
 
-emprestar()
-
-devolver()
-
-pegar_livro()
-
-devolver_livro()
-
-Manipulação de Listas
-
-O sistema utiliza listas para armazenar:
-
-livros cadastrados
-
-usuários cadastrados
-
-livros emprestados
-
-Persistência de Dados (JSON)
-
-Os dados da biblioteca são armazenados em um arquivo:
-
-dados.json
-
-Isso permite manter as informações mesmo após o programa ser encerrado.
-
-📖 Como Usar
-Pré-requisitos
-
-Ter instalado:
-
-Python 3.x
-Execução
-
-Abra o terminal ou prompt de comando.
-
-Navegue até a pasta do projeto.
-
-Execute o arquivo principal:
-
-python main.py
 📋 Menu do Sistema
 
 Ao executar o programa, o seguinte menu será exibido:
@@ -147,20 +105,7 @@ Controle de devolução
 
 Um usuário só pode devolver um livro que ele realmente tenha emprestado.
 
-📂 Estrutura do Projeto
-biblioteca-poo
-│
-├── biblioteca
-│   ├── biblioteca.py
-│   ├── livro.py
-│   └── usuario.py
-│
-├── data
-│   └── dados.json
-│
-├── main.py
-├── README.md
-└── .gitignore
+
 💡 Sugestões de Evolução
 
 Algumas melhorias que podem ser implementadas no futuro:
