@@ -126,3 +126,104 @@ Funções principais:
 ## 💾 Persistência de Dados
 
 Os dados da biblioteca são armazenados em um arquivo JSON:
+
+data/dados.json
+
+
+Isso permite que as informações não sejam perdidas quando o programa é encerrado.
+
+---
+
+# 📂 Estrutura do Projeto
+
+
+biblioteca-poo
+│
+├── biblioteca
+│ ├── biblioteca.py
+│ ├── livro.py
+│ └── usuario.py
+│
+├── data
+│ └── dados.json
+│
+├── main.py
+├── README.md
+└── .gitignore
+
+
+---
+
+# 📖 Como Usar
+
+## Pré-requisitos
+
+Ter instalado:
+
+
+Python 3.x
+
+
+---
+
+## Execução
+
+1. Clone o repositório:
+
+
+2. Entre na pasta do projeto:
+
+
+3. Execute o programa:
+
+
+python main.py
+
+
+---
+
+# 📋 Menu do Sistema
+
+Ao executar o programa, o seguinte menu será exibido:
+
+
+=== SISTEMA DA BIBLIOTECA ===
+
+1 - cadastrar livro
+2 - cadastrar usuario
+3 - listar livros
+4 - emprestar livro
+5 - devolver livro
+6 - sair
+
+
+---
+
+# 📋 Regras de Negócio
+
+O sistema possui verificações para evitar erros:
+
+- ✔ Evita cadastro de livros duplicados
+- ✔ Evita cadastro de usuários duplicados
+- ✔ Não permite emprestar livros indisponíveis
+- ✔ Usuários só podem devolver livros que pegaram
+
+---
+
+# 💡 Sugestões de Evolução
+
+Possíveis melhorias futuras para o projeto:
+
+- 🔎 Busca de livros por título ou autor
+- 📜 Histórico de empréstimos
+- 📊 Estatísticas da biblioteca
+- 🖥️ Interface gráfica usando **Tkinter**
+- 🌐 Versão web usando **Flask ou Django**
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por **Eduardo**
+
+Projeto criado para estudo de **Python e Programação Orientada a Objetos**.
