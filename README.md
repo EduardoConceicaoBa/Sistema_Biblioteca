@@ -134,22 +134,6 @@ Isso permite que as informações não sejam perdidas quando o programa é encer
 
 ---
 
-# 📂 Estrutura do Projeto
-
-
-biblioteca-poo
-│
-├── biblioteca
-│ ├── biblioteca.py
-│ ├── livro.py
-│ └── usuario.py
-│
-├── data
-│ └── dados.json
-│
-├── main.py
-├── README.md
-└── .gitignore
 
 
 ---
@@ -177,24 +161,11 @@ Python 3.x
 3. Execute o programa:
 
 
-python main.py
+  python main.py
 
 
 ---
 
-# 📋 Menu do Sistema
-
-Ao executar o programa, o seguinte menu será exibido:
-
-
-=== SISTEMA DA BIBLIOTECA ===
-
-1 - cadastrar livro
-2 - cadastrar usuario
-3 - listar livros
-4 - emprestar livro
-5 - devolver livro
-6 - sair
 
 
 ---
